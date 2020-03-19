@@ -33,8 +33,8 @@ module.exports = {
         baseUrl: process.env.DRUPAL_URL,
         apiBase: `jsonapi`, // optional, defaults to `jsonapi`
         basicAuth: {
-          username: process.env.BASIC_AUTH_USERNAME,
-          password: process.env.BASIC_AUTH_PASSWORD,
+          username: process.env.DRUPAL_USER,
+          password: process.env.DRUPAL_PASSWORD,
         },
       },
     }
