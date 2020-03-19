@@ -1,0 +1,3 @@
+5.9
+lts/* # to default to the latest LTS version
+node  # to default to the latest version
